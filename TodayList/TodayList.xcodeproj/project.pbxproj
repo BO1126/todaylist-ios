@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		422B35B7262C55DA006A8AFC /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422B35B6262C55DA006A8AFC /* AddViewController.swift */; };
 		42885420262ABAA9006FD4E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4288541F262ABAA9006FD4E8 /* AppDelegate.swift */; };
 		42885422262ABAA9006FD4E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42885421262ABAA9006FD4E8 /* SceneDelegate.swift */; };
 		42885424262ABAA9006FD4E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42885423262ABAA9006FD4E8 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		422B35B6262C55DA006A8AFC /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		4288541C262ABAA9006FD4E8 /* TodayList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4288541F262ABAA9006FD4E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42885421262ABAA9006FD4E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				42885428262ABAAB006FD4E8 /* Assets.xcassets */,
 				4288542A262ABAAB006FD4E8 /* LaunchScreen.storyboard */,
 				4288542D262ABAAB006FD4E8 /* Info.plist */,
+				422B35B6262C55DA006A8AFC /* AddViewController.swift */,
 			);
 			path = TodayList;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				42885424262ABAA9006FD4E8 /* ViewController.swift in Sources */,
 				42885420262ABAA9006FD4E8 /* AppDelegate.swift in Sources */,
+				422B35B7262C55DA006A8AFC /* AddViewController.swift in Sources */,
 				42885422262ABAA9006FD4E8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +292,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TodayList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,6 +311,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TodayList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
