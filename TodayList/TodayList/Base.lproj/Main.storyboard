@@ -21,21 +21,21 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="todocell" textLabel="b9B-Bw-TO0" detailTextLabel="HY1-ZO-1hJ" style="IBUITableViewCellStyleSubtitle" id="U3u-L2-4at">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="55.5"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="60.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="U3u-L2-4at" id="MGM-H3-VgQ">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="55.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="60.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="제목" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="b9B-Bw-TO0">
-                                                    <rect key="frame" x="20" y="9" width="31.5" height="21.5"/>
+                                                    <rect key="frame" x="20" y="8" width="31.5" height="21.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="종류" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HY1-ZO-1hJ">
-                                                    <rect key="frame" x="20" y="30.5" width="24.5" height="17"/>
+                                                    <rect key="frame" x="20" y="32.5" width="24.5" height="17"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <nil key="textColor"/>
@@ -63,10 +63,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="오늘 할 일" id="oD0-5A-kGR">
-                        <barButtonItem key="leftBarButtonItem" systemItem="edit" id="NBd-r4-hB8"/>
                         <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="Lfe-OU-J1E">
                             <connections>
-                                <segue destination="NWS-jb-ac3" kind="presentation" id="9MI-Yf-A3I"/>
+                                <segue destination="NWS-jb-ac3" kind="presentation" modalTransitionStyle="coverVertical" id="9MI-Yf-A3I"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

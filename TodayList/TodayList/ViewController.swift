@@ -8,13 +8,22 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet var tableView:UITableView!
+    
+    
+    
+    var titletext : [String] = []
+    
+    @IBAction func touchUpAddButton(_ sender: UIButton) {
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
     }
+    
+    
     
   
 
