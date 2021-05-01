@@ -52,7 +52,7 @@ class ViewController: UIViewController , UITableViewDelegate,UITableViewDataSour
     }
   
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return section == 0 ? "오늘 할 일" : "이번주 할 일"
+        return section == 0 ? "오늘 안에 할 일" : "이번주 안에 할 일"
     }
 
 
